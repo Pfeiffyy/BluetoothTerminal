@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:selectable="true">
+
+    <EditTextPreference
+        android:defaultValue=" "
+        android:key="letzteVerbindung"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="letzte zustandegekommene Verbindung" />
+    <EditTextPreference
+        android:defaultValue=" "
+        android:key="meldungsdatei"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Datei zum Ablegen der ausgelesenen Informationen" />
+
+</PreferenceScreen>
